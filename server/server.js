@@ -48,13 +48,13 @@ boot(app, __dirname, function(err) {
             // can be accessed in a function block as:
             //    context.global.os
             functionGlobalContext: {
-                fs:require('fs'), // node core module
-                moment:require('moment'),
-                base64Stream:require('base64-stream'),
-                imap:require('imap'),
-                request:require('request'),
-                stream:require('stream'),
-                loopback:app
+                fs:require('fs'),                      // file system node core module
+                moment:require('moment'),              // datetime node manager
+                base64Stream:require('base64-stream'), // base64 stream manager node module
+                imap:require('imap'),                  // imap email client
+                request:require('request'),            // request node module
+                stream:require('stream'),              // stream manager node core module
+                loopback:app                           // loopback services
             }
         };
 
