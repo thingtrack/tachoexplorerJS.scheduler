@@ -1,0 +1,31 @@
+{
+    "name": "DeviceGroup",
+    "plural": "DeviceGroups",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "id": {
+            "type": "number",
+            "id": true,
+            "generated": true,
+            "comments": "Device Group primary key"
+        },
+        "code": {
+            "type": "string",
+            "required": true,
+            "comments": "Device Group code name"
+        },
+        "description": {
+            "type": "string",
+            "required": false,
+            "comments": "Device Group description"
+        }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+}

@@ -1,0 +1,13 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "nodesensor": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "nodesensor",
+    "name": "nodesensor",
+    "connector": "mongodb"
+  }
+}
