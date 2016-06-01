@@ -31,29 +31,5 @@
   "Role": {
     "dataSource": "db",
     "public": false
-  },
-  "DeviceCluster": {
-    "dataSource": "nodesensor",
-    "public": true
-  },
-  "DeviceHub": {
-    "dataSource": "nodesensor",
-    "public": true
-  },
-  "Device": {
-    "dataSource": "nodesensor",
-    "public": true
-  },
-  "DeviceType": {
-    "dataSource": "nodesensor",
-    "public": true
-  },
-  "DeviceGroup": {
-    "dataSource": "nodesensor",
-    "public": true
-  },
-  "Track": {
-    "dataSource": "nodesensor",
-    "public": true
   }
 }
