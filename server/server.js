@@ -38,6 +38,15 @@ boot(app, __dirname, function(err) {
             // can be used to specifiy a different root path. If set to false, this is
             // disabled.
             httpNodeRoot: "/api",
+            // To enable user authentication on the Editor and Admin API
+            adminAuth: {
+                type: "credentials",
+                users: [{
+                    username: "admin",
+                    password: "$2a$08$ppza.lg5krSiiNdk5D4VO.qHkP80lMOeP8A.xR99nZzIF9n3xDC2e",
+                    permissions: "*"
+                }]
+            },
             // By default, all user data is stored in the Node-RED install directory. To
             // use a different location, the following property can be used
             userDir:".nodered/",

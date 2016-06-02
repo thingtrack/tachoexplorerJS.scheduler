@@ -19,6 +19,7 @@
     "loopback-datasource-juggler": "^2.39.0",
     "moment": "^2.10.6",
     "node-red": "^0.12.2",
+    "node-red-admin": "^0.1.2",
     "node-red-contrib-file-function": "^1.1.2",
     "node-red-contrib-mongodb2": "^0.2.2",
     "node-red-contrib-scheduler": "^1.0.5",
