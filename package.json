@@ -1,8 +1,8 @@
 {
-  "name": "node-sensor",
+  "name": "tachoexplorerJS.scheduler",
   "version": "1.0.0",
   "main": "server/server.js",
-  "description": "node-sensor App",
+  "description": "Tachoexplorer Scheduler",
   "scripts": {
     "pretest": "jshint ."
   },
